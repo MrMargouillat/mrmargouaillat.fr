@@ -161,7 +161,6 @@ body section
 {
   color: white;
   font-size: 16;
-  padding: 10px;
 }
 .downloadButon
 {
@@ -208,4 +207,11 @@ header a img
   position: absolute;
   top: 10px;
   left: 10px;
+}
+#refrech
+{
+  display: inline;
+    position: absolute;
+    top: 20px;
+    right: 0px;
 }
