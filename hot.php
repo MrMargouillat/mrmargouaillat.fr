@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="css.css" />
+        <title>Droidium - 0.0.0</title>
+        <link href="images/favicon.ico" rel="icon" type="image/x-icon"/>
+        <!--[if IE]><link rel="shortcut icon" type="image/x-icon" href="favicon.ico" /><![endif]-->
+        <SCRIPT Language="Javascript">
+<!--
+function PageRand()
+{
+Url = new Array;
+Url[0] = "page1.html";
+Url[1] = "page2.html";
+Url[2] = "page3.html";
+Url[3] = "page4.html";
+
+Choice = Math.round(Math.random() * (Url.length+1));
+window.open(Url[Choice],'_blank');
+}
+//-->
+</SCRIPT>
+    </head>
+    <header>
+
+      <a href="#" id="imageBugDroid" /><img src="images/MrMargouillat.gif" alt="Petit gif"/></a>
+      <h1>Droidium - Easter Egg</h1>
+    </header>
+
+    <body>
+
+      <h2>Action ou vérité!</h2>
+      <h3>Hot</h3>
+      <p>Générer: <A Href="#" onClick="PageRand(); return(false)">Random link is here</A> </p>
+    </body>
+    <botom>
+      <p>Tous droits resevé à Raphaël Klaja.</p><!-- Facebook Badge START --> <a href="https://www.facebook.com/raphael.klaja" title="Rapha&#xeb;l Klaja" target="_TOP"><img class="img" src="https://badge.facebook.com/badge/100003281818958.1419.1102503309.png" style="border: 0px;" alt="" /></a><!-- Facebook Badge END -->
+    </botom>
+</html>
