@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8" />
-        <link rel="stylesheet" href="css.css" />
+        <link rel="stylesheet" href="css.css"/>
         <title>MrMargouillat Dev</title>
         <link href="images/favicon.ico" rel="icon" type="image/x-icon"/>
         <!--[if IE]><link rel="shortcut icon" type="image/x-icon" href="favicon.ico" /><![endif]-->
@@ -21,10 +21,9 @@
 </script>
 
     </head>
-   <!-- header -->
-    <?php include('header.php'); ?>
     
-    <!--nav -->
+    
+    <!--nav + header -->
      <?php include('nav.php'); ?>
     <body>
 
@@ -39,18 +38,17 @@
           Pour plus d'info envoyez moi un message avec Facebook ou Google+ .</br>
           Ceci est une application non-officiel, elle ne récolte aucune information sur votre vie privée. Elle n'est aucunement affiliée au Lycée Molière.</p>
       </article>
-      <acide id='partage'>
-       <div>
-           <h4>Partage :</h4>
-          <ul>
-        <li><div class="g-plusone" data-size="medium" data-href="http://mrmargouillat.web.minecraft-mania.fr/"></div></li>
-        <li><div class="g-plus" data-action="share" data-height="15"></div></li>
-        <li><div class="fb-like" data-href="http://mrmargouillat.web.minecraft-mania.fr/" data-width="15" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div></li>
-        </ul>
-          </div>
-      </acide>
+          <acide id='partage'>
+               <div>
+                   <h4>Partage :</h4>
+                      <ul>
+                        <li><div class="g-plusone" data-size="medium" data-href="http://mrmargouillat.web.minecraft-mania.fr/"></div></li>
+                        <li><div class="g-plus" data-action="share" data-height="15"></div></li>
+                        <li><div class="fb-like" data-href="http://mrmargouillat.web.minecraft-mania.fr/" data-width="15" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div></li>
+                    </ul>
+                  </div>
+          </acide>
     </section>
     </body>
-    
     <?php include("footer.php"); ?>
 </html>
